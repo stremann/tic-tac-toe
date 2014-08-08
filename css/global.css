@@ -1,0 +1,125 @@
+html {
+  height: 100%;
+}
+html body {
+  position: relative;
+  height: 100%;
+}
+#xo-game .disable {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#xo-game #game li {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  color: #ccc;
+}
+#xo-game #game li.disable {
+  color: #fff;
+}
+#xo-game #game {
+  float: left;
+  padding: 0;
+  clear: both;
+  padding-top: 15px;
+}
+.new-span {
+  width: 226px;
+  margin-left: 0px;
+}
+#xo-game #reset {
+  padding: 5px 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  clear: both;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  width: 204px;
+}
+#xo-game #clean {
+  padding: 5px 10px;
+  margin-top: 10px;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  clear: both;
+  cursor: pointer;
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  width: 204px;
+}
+.input-prepend span.pre-text {
+  width: 55px;
+}
+.input-prepend .span1 {
+  width: 93px;
+}
+.input-prepend {
+  margin-bottom: 10px;
+}
+#xo-game h1 {
+  text-align: center;
+  font-size: 28px;
+}
+#xo-game {
+  position: absolute;
+  width: 226px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  margin: auto;
+}
+.input-append .win-times {
+  background: #fff;
+/*width: 41px;*/
+  width: 101px;
+}
+.input-append .win-text {
+  width: 52px;
+/*width: 37px;*/
+}
+.input-append .user-name {
+  width: 50px;
+/*width: 65px;*/
+}
+.user-achiv {
+  margin-top: 20px;
+}
+img.img-logo {
+  display: inline-block;
+  margin-top: 10px;
+}
+img.img-container {
+  text-align: center;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  img.img-logo {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .user-achiv {
+    margin-top: 10px;
+  }
+  #xo-game #game {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  #xo-game #game li {
+    margin-bottom: 10px;
+  }
+}

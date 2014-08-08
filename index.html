@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The&lt;XO&gt;Game</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/global.min.css">
+    <link rel="icon" type="image/png" href="img/xoicon.png">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+
+  <div id="xo-game">
+    <div class="span3 new-span">
+      <div class="row">
+        <div class="span3 img-container">
+          <img id="xo-logo" class="img-logo" src="img/xologo.gif">
+        </div>
+        <div class="span3 user-achiv">
+          <div id="under-x-name" class="input-prepend input-append">
+            <!--<span id="x-name" class="add-on user-name"></span>-->
+            <span class="add-on win-text">X won</span>
+              <strong id="x-win" class="win-times add-on">0</strong>
+            <span class="add-on">time(s)</span>
+          </div>
+          <div id="under-y-name" class="input-prepend input-append">
+            <!--<span id="o-name" class="add-on user-name"></span>-->
+            <span class="add-on win-text">O won</span>
+              <strong id="o-win" class="win-times add-on">0</strong>
+            <span class="add-on">time(s)</span>
+          </div>
+        </div>
+      </div>
+
+      <ul class="row" id="game">
+            <li id="one" class="btn span1">+</li>
+            <li id="two" class="btn span1">+</li>
+            <li id="three" class="btn span1">+</li>
+            <li id="four" class="btn span1">+</li>
+            <li id="five" class="btn span1">+</li>
+            <li id="six" class="btn span1">+</li>
+            <li id="seven" class="btn span1">+</li>
+            <li id="eight" class="btn span1">+</li>
+            <li id="nine" class="btn span1">+</li>
+        </ul>
+
+          <div class="row">
+            <a href="#" id="reset" class="btn-success btn span3 btn-start">Start Game</a>
+          </div>
+          <div class="row">
+            <a href="#" id="clean" class="btn-danger btn span3">Clean Score</a>
+          </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/thexogame.js"></script>
+  </body>
+</html>
